@@ -27,3 +27,7 @@ I worked on it using the MPU6050 to solve the problem of detecting the angle of 
 <img width="644" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/622ec32f-39fa-4ecc-bd29-08531e2aa3dc">
 
 ### 3.论文的框架罗列
+# Week 2
+1.本周需要连接好颜色传感器，detect colour
+2.copy zuma
+3.论文research
