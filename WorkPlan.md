@@ -31,3 +31,16 @@ I worked on it using the MPU6050 to solve the problem of detecting the angle of 
 1.本周需要连接好颜色传感器，detect colour
 2.copy zuma
 3.论文research
+
+# Week 3
+
+# Week 4
+1.我已经解决rotation的控制问题，并且选择z轴作为我的控制变量，最终我选择的Rotation sensor is BNO 055。
+2.经过测试原来的color sensor 显示效果并不理想，所以我使用了其他的color sensor，识别效果好了许多，但对于识别屏幕还是会有一些色差。
+3.提出新的想法，想在screen上显示color sensor 提取到的颜色，分别以R G B三个字母对应 Red Green Blue 三个颜色。
+# Week 5
+1.根据老师的提议，因为我需要辨别两个颜色，所以希望我能用两只手控制，右手控制rotation和发射球的颜色，左手去吸取运动球的颜色。
+2.经过检测，unity中球的颜色不够纯，所以我应该要改变球的色值，使其更加容易辨别
+3.老师建议我尝试使用两个Arduino board 去控制，尝试使用蓝牙进行连接
+4.因为我要使用两个color sensor 回显示在两个screen上，所以，hadeel建议我将两个颜色显示在一个屏幕上会比较好。
+# Week 6
