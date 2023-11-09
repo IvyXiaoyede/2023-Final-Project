@@ -27,17 +27,26 @@ I worked on it using the MPU6050 to solve the problem of detecting the angle of 
 
 <img width="644" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/622ec32f-39fa-4ecc-bd29-08531e2aa3dc">
 
-### 3.论文的框架罗列
 # Week 2
-1.本周需要连接好颜色传感器，detect colour
-2.copy zuma
-3.论文research
+This week, I worked on the open source project to clone the Zuma game. Firstly, I completed the overall copy and then worked on improving the details. In the process, I checked out a few websites for more inspiration and optimisation ideas.
+https://leetcode.com/problems/zuma-game/
+
+https://www.youtube.com/watch?v=3gSiFNR4C-8
+
+https://github.com/GalaxyShad/Zuma-Deluxe-HD
+
+https://github.com/CosmicCrash/ZumaBlitzRemake
 
 # Week 3
+This week, my main task was to connect and test colour sensors for wearable devices. Firstly, I scrutinised the information about colour sensors on the website and then carried out a series of simple but effective tests. I try to use the TCS3200 RGB, but its not good for my project.
+<img width="380" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/e8b07421-f4cf-4a58-b8f4-b10a046a0509">
 
+In addition to this, I also took the time to focus on the required research section of the report. Through extensive research, I dug deeper into the information and fleshed out this section to ensure a richer and more detailed report.
 # Week 4
 1.我已经解决rotation的控制问题，并且选择z轴作为我的控制变量，最终我选择的Rotation sensor is BNO 055。
+
 2.经过测试原来的color sensor 显示效果并不理想，所以我使用了其他的color sensor，识别效果好了许多，但对于识别屏幕还是会有一些色差。
+
 3.提出新的想法，想在screen上显示color sensor 提取到的颜色，分别以R G B三个字母对应 Red Green Blue 三个颜色。
 # Week 5
 1.The teacher's suggestion sounds interesting! The right hand controls the colour of the spinning and launching ball, while the left hand is responsible for sucking up the colour of the moving ball, so you need both hands to work in tandem to identify the two colours.
