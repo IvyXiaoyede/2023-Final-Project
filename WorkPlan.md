@@ -25,6 +25,7 @@ I simply processed the colour tones in Ps and found that zuma's gameplay is very
 This week I have been working on the electronic connection of the sensing device for the base of the game, for the launch angle control issue
 I worked on it using the MPU6050 to solve the problem of detecting the angle of rotation and connecting the button for the purpose of controlling the launcher.
 
+#### Rotation Connect Fritzing （Figure 4）
 <img width="644" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/622ec32f-39fa-4ecc-bd29-08531e2aa3dc">
 
 # Week 2
@@ -39,20 +40,30 @@ https://github.com/GalaxyShad/Zuma-Deluxe-HD
 https://github.com/CosmicCrash/ZumaBlitzRemake
 
 # Week 3
-This week, my main task was to connect and test colour sensors for wearable devices. Firstly, I scrutinised the information about colour sensors on the website and then carried out a series of simple but effective tests. I try to use the TCS3200 RGB, but its not good for my project.
-<img width="380" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/e8b07421-f4cf-4a58-b8f4-b10a046a0509">
-<img width="419" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/10a0643b-29c5-4bed-a1db-bf98afbbfd10">
 
+This week, my main task was to connect and test colour sensors for wearable devices. Firstly, I scrutinised the information about colour sensors on the website and then carried out a series of simple but effective tests. I try to use the TCS3200 RGB, but its not good for my project.
+#### TCS3200 RGB（Figure 5）
+<img width="380" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/e8b07421-f4cf-4a58-b8f4-b10a046a0509">
+
+#### TCS3200 RGB Fritzing （Figure 6&7）
+<img width="419" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/10a0643b-29c5-4bed-a1db-bf98afbbfd10">
 <img width="488" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/4d83db0b-8efb-411c-8bb8-c6aa9222312d">
 
 In addition to this, I also took the time to focus on the required research section of the report. Through extensive research, I dug deeper into the information and fleshed out this section to ensure a richer and more detailed report.
+
 # Week 4
-1.我已经解决rotation的控制问题，并且选择z轴作为我的控制变量，最终我选择的Rotation sensor is BNO 055。
 
-2.经过测试原来的color sensor 显示效果并不理想，所以我使用了其他的color sensor，识别效果好了许多，但对于识别屏幕还是会有一些色差。
+The problem of rotary control was successfully solved this week by choosing the BNO 055 as the rotary sensor and the Z-axis as the control variable. A single variable allows for better control and data transfer.
 
-3.提出新的想法，想在screen上显示color sensor 提取到的颜色，分别以R G B三个字母对应 Red Green Blue 三个颜色。
+After testing the TCS3200 RGB colour sensor, the results were not satisfactory so it was decided to replace it with a different colour sensor. After a number of tests I chose the TCS34725 as the new sensor gave a much better display and although there was still some colour difference in screen recognition this was a significant improvement.
+
+#### TCS34725（Figure 8）
+<img width="495" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/5bd1a984-5c78-4f13-9220-8cd2e1781fef">
+
+To further enhance the visual impact of the project, I wanted to display the colours extracted by the colour sensor on the screen, with the letters R, G and B corresponding to the colours red, green and blue, which not only allows the user to perceive the control variables more intuitively, but also enriches the whole interactive experience. The visual display of colour information on the screen is certainly an impressive improvement, allowing the user to perceive the feedback from the sensors more intuitively, thus bringing the whole system to a new level of interactivity and user-friendliness.
+
 # Week 5
+
 1.The teacher's suggestion sounds interesting! The right hand controls the colour of the spinning and launching ball, while the left hand is responsible for sucking up the colour of the moving ball, so you need both hands to work in tandem to identify the two colours.
 
 2.After testing, the colours of the balls in unity are not pure enough, so I should change the colour values of the balls to make them more recognizable. I changed the colour of the blue ball and the green ball to be easily recognizable by the colour sensor to get the data.
@@ -61,10 +72,18 @@ In addition to this, I also took the time to focus on the required research sect
 
 4.Because I want two colour sensors back to be displayed on two screens, at hadeel's suggestion, I'm displaying both colours on one screen. I have implemented this function
 You can see that using two colour sensors to read the colour data separately in the screen is implemented to read the data from two colour sensors in one screen.
+
+#### Color Test Result (Figure 9）
 <img width="842" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/a7313e6e-9b7d-4dfb-bcb2-8e3fc961652f">
 
-
 # Week 6
-1. 在技术指导中，老师给我推荐了这个传感器，可以使我原本的线段变得更加简洁明了。
-   https://how2electronics.com/getting-started-with-seeed-xiao-ble-nrf52840-sense/
-   使用
+The advice given by my mentor in the technical guide was very helpful, especially recommending this sensor, which will make a noticeable improvement to my project. By using the Seeed Xiao BLE NRF52840 Sense sensor ([link you provided](https://how2electronics.com/getting-started-with-seeed-xiao-ble-nrf52840-sense/)), you can make an otherwise complex circuit much simpler to understand. This not only improves the overall aesthetics, but also helps reduce system complexity.
+
+With this sensor, you can also change from wired to wireless and use Bluetooth technology for data transfer. This change not only increases the flexibility of the system, but also gives your wearable device more freedom of movement.
+
+#### Left hand Wearable Fritzing（Figure 10）
+<img width="748" alt="Lefthand frizzing" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/0933fe59-75ee-4273-b76c-e08c3650fb87">
+When the left-handed wearable is connected to the screen the expected wiring diagram looks like this：
+
+![left hand_bb](https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/891f2991-9afc-4e5b-a64b-4ea5ddff28ad)
+
