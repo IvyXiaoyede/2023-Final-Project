@@ -29,6 +29,7 @@ I worked on it using the MPU6050 to solve the problem of detecting the angle of 
 
 # Week 2
 This week, I worked on the open source project to clone the Zuma game. Firstly, I completed the overall copy and then worked on improving the details. In the process, I checked out a few websites for more inspiration and optimisation ideas.
+
 https://leetcode.com/problems/zuma-game/
 
 https://www.youtube.com/watch?v=3gSiFNR4C-8
@@ -40,6 +41,9 @@ https://github.com/CosmicCrash/ZumaBlitzRemake
 # Week 3
 This week, my main task was to connect and test colour sensors for wearable devices. Firstly, I scrutinised the information about colour sensors on the website and then carried out a series of simple but effective tests. I try to use the TCS3200 RGB, but its not good for my project.
 <img width="380" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/e8b07421-f4cf-4a58-b8f4-b10a046a0509">
+<img width="419" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/10a0643b-29c5-4bed-a1db-bf98afbbfd10">
+
+<img width="488" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/4d83db0b-8efb-411c-8bb8-c6aa9222312d">
 
 In addition to this, I also took the time to focus on the required research section of the report. Through extensive research, I dug deeper into the information and fleshed out this section to ensure a richer and more detailed report.
 # Week 4
