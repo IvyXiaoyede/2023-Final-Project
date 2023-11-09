@@ -2,11 +2,12 @@
 ### Research
 After observation, I found that in normal games, colour is a very important way to assist the expression of game concepts, but after my observation and research, I found that there is no special assistive device that can help colour blind people to achieve a better gaming experience, although there is a similar product like glasses for colour blind people exists, but it doesn't provide much help for the game, so I wanted to design So I want to design a wearable product that can assist colour blind people to play games and get in a better gaming mood.
 In my design, I need two parts, a personal computer and a wearable device part, the personal computer mainly displays the game scene, just like a normal screen to display normal games, the device part is mainly a controller, mainly to achieve the purpose of controlling the game, and to assist colour-blind people to distinguish colours is also done through the controller.
-#### Computer
+#### PC：
 During the summer holidays I had intended to make a game using PAC-MAN, when I copied the game and processed it I found that PAC-MAN did not run as well as I had initially expected (pictures) and the game did not rely on colours as much as it should. Therefore, after discussing this with my teacher, I decided to change the game.
 
-#### 装置部分：
-  新的想法-所有的控制皆由手臂的穿戴设备进行控制
+#### Wearable part：
+When I started using wearables and trying out handheld wearables, I found it a bit difficult to control the mouse and the colour sensor with one hand at the same time. Therefore, I intend to integrate both functions directly into one wearable, using my right hand to control the rotation, launching and drawing the colours of the launching ball, while my left hand will be responsible for drawing the colours of the moving ball. This way, I can have all the necessary controls on both left and right handed wearables.
+
 # Week 1
 ### 1. Finding the right new game-zuma 
 I simply processed the colour tones in Ps and found that zuma's gameplay is very colour dependent. I simply processed the game screenshots (fig 1,2,3) and you can see that after removing all the RGB colours, zuma is very much affected by colour, which basicallymakes it a very poor gaming experience for colourblind people.
