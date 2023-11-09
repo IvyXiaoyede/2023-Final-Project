@@ -39,8 +39,18 @@ I worked on it using the MPU6050 to solve the problem of detecting the angle of 
 2.经过测试原来的color sensor 显示效果并不理想，所以我使用了其他的color sensor，识别效果好了许多，但对于识别屏幕还是会有一些色差。
 3.提出新的想法，想在screen上显示color sensor 提取到的颜色，分别以R G B三个字母对应 Red Green Blue 三个颜色。
 # Week 5
-1.根据老师的提议，因为我需要辨别两个颜色，所以希望我能用两只手控制，右手控制rotation和发射球的颜色，左手去吸取运动球的颜色。
-2.经过检测，unity中球的颜色不够纯，所以我应该要改变球的色值，使其更加容易辨别
-3.老师建议我尝试使用两个Arduino board 去控制，尝试使用蓝牙进行连接
-4.因为我要使用两个color sensor 回显示在两个screen上，所以，hadeel建议我将两个颜色显示在一个屏幕上会比较好。
+1.The teacher's suggestion sounds interesting! The right hand controls the colour of the spinning and launching ball, while the left hand is responsible for sucking up the colour of the moving ball, so you need both hands to work in tandem to identify the two colours.
+
+2.After testing, the colours of the balls in unity are not pure enough, so I should change the colour values of the balls to make them more recognizable. I changed the colour of the blue ball and the green ball to be easily recognizable by the colour sensor to get the data.
+
+3.Since my device is spread across both left and right handers, Hadeel suggested that I try to use two Arduino boards to control it and try to use Bluetooth for connectivity to transfer the data, and during the week I first did that by figuring out how to use one Arduino board to get the data from the two colour sensors and display it together.
+
+4.Because I want two colour sensors back to be displayed on two screens, at hadeel's suggestion, I'm displaying both colours on one screen. I have implemented this function
+You can see that using two colour sensors to read the colour data separately in the screen is implemented to read the data from two colour sensors in one screen.
+<img width="842" alt="image" src="https://github.com/IvyXiaoyede/2023-Final-Project/assets/119190967/a7313e6e-9b7d-4dfb-bcb2-8e3fc961652f">
+
+
 # Week 6
+1. 在技术指导中，老师给我推荐了这个传感器，可以使我原本的线段变得更加简洁明了。
+   https://how2electronics.com/getting-started-with-seeed-xiao-ble-nrf52840-sense/
+   使用
